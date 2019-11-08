@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+.footer-container {
+  background-color: $dark;
+  display: block;
+  height: 5%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  p {
+    color: $dark-grey;
+    text-align: center;
+    margin-top: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .heart-icon {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: #b9599d;
+  }
+}

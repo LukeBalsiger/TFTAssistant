@@ -1,0 +1,54 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Cabin|Quicksand");
+
+/* Fonts */
+$sans-serif: "Quicksand", Helvetica, Arial, sans-serif;
+
+/* Headings */
+@for $i from 1 through 6 {
+  h#{7 - $i} {
+    font-family: "Cabin", Helvetica, Arial, sans-serif;
+    font-size: $i * 0.5em;
+    font-weight: 800;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+/* Colors */
+$primary: #208fc6;
+$secondary: #315c9a;
+$warning: #f1872e;
+$info: #ffc107;
+$danger: #c00;
+$success: #8cc845;
+$white: #fff;
+$light: #ccc;
+$light-grey: #aaa;
+$grey: #777;
+$dark-grey: #555;
+$dark: #272727;
+$near-black: #090909;
+$black: #000;
+
+/* Sizes */
+$breadcrumb-height: 2.5rem;
+$header-height: 60px;
+$menu-width-collapsed: 64px;
+$menu-width-expanded: 240px;
+
+/* Mixins */
+@mixin psuedo-classes {
+  &:hover,
+  &:active,
+  &:focus {
+    @content;
+  }
+}
+
+@mixin background-gradient($from, $to, $direction: top) {
+  background: $from;
+  background: linear-gradient(to $direction, $from 0%, $to 100%);
+  color: $white;
+}

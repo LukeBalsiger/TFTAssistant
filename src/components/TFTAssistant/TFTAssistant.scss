@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+
+.TFTAssistant {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.TFTAssistant-header {
+  background-color: $near-black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $light;
+}
