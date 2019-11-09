@@ -1,6 +1,7 @@
 export type Item = {
   name: string;
-  text: string;
+  stats: string;
+  effect: string;
   assetLocation: string;
   components: Item[];
 };

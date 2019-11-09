@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
   return (
     <div>
       <RSNavbar color="dark" dark expand="md">
-        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarBrand href="/">Dashboard</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

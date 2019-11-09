@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "name": "B.F. Sword",
+      "stats": "+15 Attack Damage",
+      "effect": "",
+      "assetLocation": "",
+      "components": []
+    },
+    {
+      "name": "Deathblade",
+      "stats": "+30 Attack Damage",
+      "effect": "On kill or assist, gain +15 attack damage, stacks infinitely",
+      "assetLocation": "",
+      "components": []
+    }
+  ]
+}
