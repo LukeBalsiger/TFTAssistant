@@ -1,0 +1,12 @@
+@import "../../../variables.scss";
+
+.item-grid-card-container {
+  color: $light;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}
+
+.item-grid-card-thumbnail {
+  width: 32px;
+}

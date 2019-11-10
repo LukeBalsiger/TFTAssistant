@@ -1,17 +1,17 @@
 import React from "react";
 import "./DashboardItems.scss";
-// import ItemGridNoText from "components/_shared/ItemGridNoText/ItemGridNoText";
+import ItemsTable from "../../_shared/Items/ItemsTable/ItemsTable";
 
 const DashboardItems: React.FC = () => {
   return (
     <div className="dash-items">
-      <img
+      {/* <img
         src="/images/items.png"
         alt="Item Chart"
         id="item-chart-image"
         className="items-zoom"
-      />
-      {/* TODO: Custom make grid using <ItemGridNoText />*/}
+      />*/}
+      <ItemsTable />
     </div>
   );
 };
