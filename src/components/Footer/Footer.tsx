@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <p>
         Made with
         <FontAwesomeIcon className="heart-icon" icon="heart" fixedWidth />
-        by Luke Balsiger
+        by <a href="https://www.facebook.com/luke.balsiger.3">Luke Balsiger</a>
       </p>
     </footer>
   );

@@ -4,7 +4,12 @@ import "./DashboardClasses.scss";
 const DashboardClasses: React.FC = () => {
   return (
     <div className="dash-classes">
-      <p>Classes</p>
+      <img
+        src="/images/classes.png"
+        alt="Level Chart"
+        id="classes-chart-image"
+        className="classes-zoom"
+      />
     </div>
   );
 };

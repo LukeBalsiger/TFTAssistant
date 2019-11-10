@@ -42,7 +42,9 @@ const Navbar: React.FC = () => {
                 <DropdownItem>Something</DropdownItem>
                 <DropdownItem>Something Else</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>Github</DropdownItem>
+                <DropdownItem href="https://github.com/LukeBalsiger/TFTAssistant">
+                  Github
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>

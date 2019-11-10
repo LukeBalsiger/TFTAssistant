@@ -1,0 +1,86 @@
+/* Imports */
+@import "./variables.scss";
+
+/* Rows + Headers */
+$header-height: 2 * 16px; // Multiplying rem size to convert to px as ag-grid theme requires px specifically
+$hover-color: $black;
+$row-height: 2 * 16px; // Multiplying rem size to convert to px as ag-grid theme requires px specifically
+
+/* Fonts */
+$font-family: $sans-serif;
+$foreground-color: $light;
+$secondary-font-family: $heading-font;
+$secondary-foreground-color: green;
+
+/* Icons */
+$accent-color: $light-grey;
+$icon-color: $dark;
+
+// ME
+$border-color: $near-black;
+$background-color: $near-black;
+$odd-row-background-color: $dark;
+
+/* Apply to Theme */
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-bootstrap/sass/ag-theme-bootstrap.scss";
+
+/* Non Variable Adjustments */
+.ag-theme-bootstrap {
+  height: 100%; // Default Table Styling
+
+  .ag-body-viewport {
+    background-color: $near-black;
+  }
+
+  // Default Cell Styling
+  .ag-cell {
+    border: none !important; // Unfortunate, but necessary
+    font-weight: bold;
+  }
+
+  // Remove AG Grids native focus element styling
+  .ag-cell-focus,
+  .ag-cell:focus {
+    outline: none;
+  }
+
+  // Hover Row Styling
+  //.ag-row-hover {
+  //cursor: pointer;
+  //}
+
+  // Focused Row Styling
+  //.ag-row-focus {
+  // background-color: $hover;
+  //cursor: default;
+  //}
+
+  // Header Text Styling
+  .ag-header-cell-text {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  // Scrollbars
+  .ag-body-horizontal-scroll {
+    ::-webkit-scrollbar {
+      height: 0.75rem;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: $dark;
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: $grey;
+      border-radius: 0 0 0.25rem 0.25rem;
+
+      &:hover {
+        background: $dark-grey;
+      }
+    }
+  }
+}

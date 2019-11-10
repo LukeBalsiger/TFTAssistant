@@ -1,9 +1,21 @@
 .dash-classes {
-  border-style: solid;
-  border-color: orange;
-  height: 46%;
-  width: 33%;
+  //border-style: solid;
+  //border-color: orange;
+  height: 45%;
   float: left;
-  margin-left: 2%;
-  margin-top: 1%;
+  margin-left: 1%;
+  margin-top: 3%;
+
+  #classes-chart-image {
+    height: 100%;
+  }
 }
+
+/*
+.classes-zoom {
+  transition: transform 0.2s;
+}
+
+.classes-zoom:hover {
+  transform: matrix(2, 0, 0, 2, 300, -150);
+}*/

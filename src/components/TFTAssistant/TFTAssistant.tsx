@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import CompositionsContainer from "../CompositionsContainer/CompositionsContainer";
 import Footer from "../Footer/Footer";
 import Dashboard from "../Dashboard/Dashboard";
+import ItemsContainer from "../ItemsContainer/ItemsContainer";
 
 const TFTAssistant: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const TFTAssistant: React.FC = () => {
           <CompositionsContainer />
         </Route>
         <Route path="/items">
-          <CompositionsContainer />
+          <ItemsContainer />
         </Route>
         <Route path="/units">
           <CompositionsContainer />
