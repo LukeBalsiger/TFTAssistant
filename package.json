@@ -19,7 +19,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "reactstrap": "^8.1.1",
     "typescript": "3.7.2"
   },
@@ -59,7 +59,7 @@
     "@storybook/addon-knobs": "^5.2.6",
     "@storybook/addon-links": "^5.2.5",
     "@storybook/addons": "^5.2.5",
-    "@storybook/react": "^5.2.5",
+    "@storybook/react": "^7.0.9",
     "@types/storybook__react": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^2.6.1",
     "@typescript-eslint/parser": "^2.6.1",
